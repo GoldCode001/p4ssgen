@@ -25,8 +25,8 @@ def main():
     # Set Streamlit options
     st.set_page_config(page_title="Password Generator", page_icon="🔒")
     #st.set_option('browser.serverAddress', '0.0.0.0')
-    st.set_option('server.enableCORS', False)
-    st.set_option('server.enableXsrfProtection', False)
+    #st.set_option('server.enableCORS', False)
+    #st.set_option('server.enableXsrfProtection', False)
 
     # Hide menu, footer and header
     hide_menu_style = """
