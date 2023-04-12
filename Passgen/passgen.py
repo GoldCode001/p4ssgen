@@ -19,12 +19,6 @@ def generate_password(length, lowercase, uppercase, numbers, symbols):
     password = ''.join(random.choice(letters) for i in range(length))
     return password
 
-# Use local css
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-local_css("Tools/Pass/style.css")
 
 # Create a Streamlit app
 def main():
